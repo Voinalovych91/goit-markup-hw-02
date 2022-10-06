@@ -49,6 +49,8 @@ ul {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+
+  text-decoration: none;
 }
 
 .site-nav .link:hover,
@@ -61,12 +63,14 @@ ul {
 }
 
 .contacts-nav .link {
-  color: var(--title-text-color);
+  color: var(--primary-text-color);
 
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+
+  text-decoration: none;
 }
 .contacts-nav .link:hover,
 .contacts-nav .link:focus {
@@ -105,7 +109,6 @@ ul {
 .section-title {
   color: var(--title-text-color);
 
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
@@ -115,7 +118,6 @@ ul {
 .description .description-title {
   color: var(--title-text-color);
 
-  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -125,7 +127,6 @@ ul {
 .text {
   color: var(--primary-text-color);
 
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -142,7 +143,6 @@ ul {
 
 .teams-text {
   color: var(--primary-text-color);
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
 }
@@ -155,7 +155,6 @@ ul {
 .adress .adress-text {
   color: rgba(255, 255, 255, 0.6);
 
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -164,10 +163,11 @@ ul {
 .info .link {
   color: rgba(255, 255, 255, 0.6);
 
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+
+  text-decoration: none;
 }
 
 .info .link:hover,
@@ -187,15 +187,19 @@ ul {
 
   cursor: pointer;
 }
-.portfolio .button:hover,
+.portfolio .button:hover {
+    color: #F5F4FA;
+    background:var(--accent-color);
+
+}
 .portfolio .button:focus {
-  color: var(--accent-color);
+  color: #F5F4FA;
+  background-color:var(--accent-color);
 }
 
 .works .work-title {
   color: var(--title-text-color);
 
-  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
@@ -204,7 +208,6 @@ ul {
 .works .work-text {
   color: var(--primary-text-color);
 
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
